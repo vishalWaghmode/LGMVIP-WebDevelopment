@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="
+    https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>ZIPPY</span>
+            </div>
+            <div class="menu">
+                <div class="nav-content">
+                    <a href="#">Home</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Team</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <section class="h-text">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <h6> Lorem, ipsum dolor sit <br> amet consectetur adipisicing.<br></h6>
+            <button class="btn">Learn more</button>
+            <button class="btn">Learn more</button>
+
+        </section>
+    </header>
+    <section class="welcometozappy">
+        <h1 id="welcome">
+            Welcome to Zippy
+        </h1>
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> Necessitatibus, quidem sunt? <br>eveniet est
+                repellendus?</p>
+            <img src="img/5.jpg" alt="">
+        </div>
+        <div class="info-blocks">
+            <div class="blocks">
+                <img src="img/3.jpg" alt="#">
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequuntur?</p>
+                <button class="btn">Learn more</button>
+            </div>
+            <div class="blocks">
+                <img src="img/4.jpg" alt="">
+                <h3>DOLOR SIT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolor.</p>
+                <button class="btn">Learn more</button>
+            </div>
+            <div class="blocks">
+                <img src="img/05.jpg" alt="">
+                <h3>CONSECTETURE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veniam!</p>
+                <button class="btn">Learn more</button>
+            </div>
+        </div>
+    </section>
+    <hr class="line1">
+    <section>
+        <div id="projects">
+            <h1>Projects</h1>
+            <div id="cards" style="width: 100%;">
+                <div class="projectname" id="project1">
+                    <div class="card">
+                        <img src="img/proj1.jpg" alt="" class="cardimg">
+                        <h5 class="card-name">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio?
+                        </p>
+                        <button class="btn">Launch Case Study</button>
+                    </div>
+                </div>
+                <div class="projectname" id="project2">
+                    <div class="card" style="width: 100%;">
+                        <img src="img/proj2.jpg" alt="" class="cardimg">
+                        <h5 class="card-name">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio?
+                        </p>
+                        <button class="btn btn2">Launch Case Study</button>
+                    </div>
+                </div>
+                <div class="projectname" id="project3">
+                    <div class="card" style="width: 100%;">
+                        <img src="img/proj3.jpg" alt="" class="cardimg">
+                        <h5 class="card-name">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio?
+                        </p>
+                        <button class="btn btn2">Launch Case Study</button>
+                    </div>
+                </div>
+                <div class="projectname" id="project4">
+                    <div class="card" style="width: 100%;">
+                        <img src="img/proj4.jfif" alt="" class="cardimg">
+                        <h5 class="card-name">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio?
+                        </p>
+                        <button class="btn btn2">Launch Case Study</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="pricing">
+            <h2 class="pricing-heading">Pricing</h2>
+            <div class="plans">
+                <div class="pricing-plans" id="plan1">
+                    <h5>STANDARD PLAN</h5>
+                    <span class="amount">Free</span>
+                    <br>
+                    <br>
+                    <div>2GB Daily</div>
+                    <div>15 call/day</div>
+                    <div>150 msg/day</div>
+                    <div>30 Ads/day</div>
+                    <button class="buy">BUY</button>
+                </div>
+                <div class="pricing-plans" id="plan2">
+                    <h5>BUSSINESS PLAN</h5>
+                    <span class="amount">199/Month</span>
+                    <br>
+                    <br>
+                    <div>10GB Daily</div>
+                    <div>150 call/day</div>
+                    <div>1500 msg/day</div>
+                    <div>Ads Free</div>
+                    <button class="buy">BUY</button>
+                </div>
+                <div class="pricing-plans">
+                    <h5>PREMIUM PLAN</h5>
+                    <span class="amount">149/Month</span>
+                    <br>
+                    <br>
+                    <div>10GB Daily</div>
+                    <div>150 call/day</div>
+                    <div>1500 msg/day</div>
+                    <div>Ads Free</div>
+                    <button class="buy">BUY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="video-project">
+            <h2>Video Project</h2>
+            <div class="videos">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/Epc2rBssAug" title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/Zw96TzzSjvg" title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/egzSF_Iw1CA" title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="zippy-team">
+            <h2>Zippy Team</h2>
+            <div class="all">
+                <div class="team">
+                    <div class="members" id="members1">
+                        <img src="img/team1.jfif" alt="" class="image">
+                        <h5>Manisha Thakur</h5>
+                        <span>Head</span>
+                    </div>
+                    <div class="members" id="members2">
+                        <img src="img/team2.jpg" alt="" class="image">
+                        <h5>Manisha Sharma</h5>
+                        <span>Art Director</span>
+                    </div>
+                    <div class="members" id="members3">
+                        <img src="img/team3.jpg" alt="" class="image">
+                        <h5>Chris Johns</h5>
+                        <span>Production Manager</span>
+
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="members" id="members4">
+                        <img src="img/team4.jpg" alt="" class="image">
+                        <h5>Prem Taje</h5>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="members" id="members5">
+                        <img src="img/team5.jfif" alt="" class="image">
+                        <h5>Ved Parikh</h5>
+                        <span>Creative Manager</span>
+                    </div>
+                    <div class="members" id="members6">
+                        <img src="img/team6.jpg" alt="" class="image">
+                        <h5>Rosy Root</h5>
+                        <span>Supporter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="zippylife">
+            <h2>Life In Zippy</h2>
+            <div class="total-content">
+                <div class="main-img">
+                    <img id="featured" src="img/life1.jpg" alt="">
+
+                    <div class="slide-wrapper">
+                        <img src="img/left1.png" class="arrow" id="slideLeft">
+
+                        <div id="slider">
+                            <img class="thumbnail active" src="img/pic1.jpg">
+                            <img class="thumbnail" src="img/pic2.jpg">
+                            <img class="thumbnail" src="img/pic3.jpg">
+                            <img class="thumbnail" src="img/pic4.jfif">
+                            <img class="thumbnail" src="img/pic5.jfif">
+                            <img class="thumbnail" src="img/pic6.jpg">
+                            <img class="thumbnail" src="img/pic7.jfif">
+                        </div>
+
+                        <img src="img/right1.jpg" class="arrow" id="slideRight">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="input-box">
+            <h2>Newsletter signup</h2>
+            <div class="inp-but">
+                <input type="text" placeholder="Enter some words..." class="input">
+                <button class="signup">Sign Up</button>
+            </div>
+            <div class="but2">
+                <button>Login In</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="blog">
+            <h2>Blog</h2>
+            <div class="row">
+                <div class="coloumn" id="column1">
+                    <img src="img/blog1.jfif" alt="" class="pict">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span class="date">12, September</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequuntur?</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="coloumn" id="column2">
+                    <img src="img/blog2.jfif" class="pict">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span class="date">23, March</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequuntur?</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="coloumn" id="column3">
+                    <img src="img/blog3.jfif" class="pict">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <span class="date">26, August</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequuntur?</p>
+                    <button class="btn">Read more</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="map-cont">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d966055.8505650746!2d75.92526753568909!3d18.94662947777656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc52b20818bd2d3%3A0x5d6c6b3e2c7dae70!2sBeed%2C%20Maharashtra%20431122!5e0!3m2!1sen!2sin!4v1639124127088!5m2!1sen!2sin" width="600" height="520" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <div class="bands">
+                    <form action="/action_page.php" class="form">
+                        <label for="fname" class="label">NAME</label><br>
+                        <input type="text" name="firstname" placeholder="Name.." class="text1">
+                        <br>
+                        <label for="fname" class="label">EMAIL</label><br>
+                        <input type="text" name="firstname" placeholder="Email.." class="text1">
+                        <br>
+                        <label for="fname" class="label">SUBJECT</label><br>
+                        <input type="text" name="firstname" placeholder="Subject..." class="text1">
+                        <div id="msg-box" class="label">
+                            MESSAGE <br>
+                            <textarea name="myText" cols="20" rows="8" class="text1"></textarea>
+                        </div>
+                        <button class="send">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="end">
+            <div class="end-block" id="end-block1">
+                <h3>OFFICE ADDRESS</h3>
+                <P>Kherdawadi,Tq Georai, <br> Dist Beed,Maharashtra <br> 431122</P>
+            </div>
+            <div class="end-block" id="end-block2">
+                <h3>FOLLOW US</h3>
+                <img src="img/team7-removebg-preview.png" alt="" class="site">
+            </div>
+            <div class="end-block" id="end-block3">
+                <h3>CONTACT US</h3>
+                <p>566556 <br>+91 8308392934 <br> vishalwaghmode3328@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        let thumbnails = document.getElementsByClassName('thumbnail')
+
+        let activeImages = document.getElementsByClassName('active')
+
+        for (var i = 0; i < thumbnails.length; i++) {
+
+            thumbnails[i].addEventListener('mouseover', function () {
+                console.log(activeImages)
+
+                if (activeImages.length > 0) {
+                    activeImages[0].classList.remove('active')
+                }
+
+
+                this.classList.add('active')
+                document.getElementById('featured').src = this.src
+            })
+        }
+
+
+        let buttonRight = document.getElementById('slideRight');
+        let buttonLeft = document.getElementById('slideLeft');
+
+        buttonLeft.addEventListener('click', function () {
+            document.getElementById('slider').scrollLeft -= 180
+        })
+
+        buttonRight.addEventListener('click', function () {
+            document.getElementById('slider').scrollLeft += 180
+        })
+
+
+    </script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
